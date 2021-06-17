@@ -78,13 +78,15 @@ $ python3 -m pip install PyQt5
 启动服务端
 
 ```
-$ ./server/armory
+$ cd server
+$ ./armory
 ```
 
 启动客户端
 
 ```
-$ python3 ./client/main.py
+$ cd client
+$ python3 main.py
 ```
 
 ## Authors
