@@ -62,14 +62,14 @@
 $ git clone https://github.com/soreatu/baby-ciphertext-deduplicate-system.git
 ```
 
-编译服务端
+编译服务端，或者从[Releases](https://github.com/soreatu/baby-ciphertext-deduplicate-system/releases)中下载mac版已经编译好的armory
 
 ```
 $ cd server
 $ go build -o armory .
 ```
 
-配置服务端环境
+配置客户端环境
 
 ```
 $ python3 -m pip install PyQt5
