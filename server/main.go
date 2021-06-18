@@ -1,19 +1,12 @@
-
-
 package main
 
 import (
 	"armory/api"
 	"armory/conf"
 	"armory/model"
-
-	"net/http"
 )
 
 func main() {
-	// 前端服务
-	go http.ListenAndServe(":8080", http.FileServer(http.Dir("frontend/")))
-
 	// 读取配置文件
 	conf.Init()
 	// 连接数据库
